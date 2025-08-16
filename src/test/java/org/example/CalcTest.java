@@ -13,6 +13,6 @@ public class CalcTest {
 
     @Test
     void testSubtraction() {
-        assertEquals(2, c.subtract(4, 2));  // This will fail if subtract is not implemented
+        assertEquals(2, c.subtract(4, 2));  // This will now pass
     }
 }
